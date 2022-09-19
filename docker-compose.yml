@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  app:
+    container_name: laravel-app
+    image: laravel-app
+    ports:
+      - 8080:8080
+    restart: always
